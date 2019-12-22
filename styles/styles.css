@@ -1,0 +1,81 @@
+*{    
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+@media screen and (max-width:320px){
+header{
+    width: 320px;
+    height: 44px;
+    position: relative;
+}
+.logo{
+    display: block;
+    position: absolute;
+    left: 16px;
+    top: 10px;
+}
+.options{
+    display: none;
+}
+.options a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 16px;
+    display: block;
+    width: 320px;
+    letter-spacing: 0;
+    line-height: 28px;
+    margin: 24px 0px 24px 16px;
+    opacity: 100%;
+}
+#episodios{
+    margin-top: 16px;
+}
+.icon{
+    display: block;
+    position: absolute;
+    left: 283px;
+    top: 16px;
+}
+.menu:hover .options{
+    display: inline-block;
+    background-color: #0000EC;  
+    position: absolute;
+    top: 44px;
+  }
+}
+
+@media screen and (min-width:321px){
+header{
+    width: 1440px;
+    height: 80px;
+    position: relative;
+}
+.logo{
+    display: block;
+    position: absolute;
+    left: 100px;
+    top: 22px;
+    bottom: 22px;
+    width: 36px;
+    height: 36px;
+}
+.icon{
+    display: none;
+}
+.options{
+    position: absolute;
+}
+.options a{
+    text-decoration: none;
+    color: #060A24;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 28px;
+    margin: 24px 0px 24px 16px;
+    opacity: 100%;
+}
+}
