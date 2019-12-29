@@ -33,11 +33,25 @@ header{
 #episodios{
     margin-top: 16px;
 }
+.icon-close{
+    display: none;
+}
 .icon{
     display: block;
     position: absolute;
-    left: 283px;
+    right: 0px;
     top: 16px;
+    margin-right: 19px;
+}
+.menu:hover .icon{
+    display: none;
+}
+.menu:hover .icon-close{
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: 16px;
+    margin-right: 16px;
 }
 .menu:hover .options{
     display: inline-block;
@@ -45,10 +59,24 @@ header{
     position: absolute;
     top: 44px;
   }
+.options a:hover{
+    font-weight: 500;
+    text-decoration: line-through;
+    color: #00F3BB;
+}
+.options a:active{
+    text-decoration: line-through;
+    color: #060A24;
+    opacity: 56%;
+    /*color: rgba(6,10,36,0.56);*/
+}
 }
 
 @media screen and (min-width:321px){
-header{
+body{
+    width: 1440px;
+}
+    header{
     width: 1440px;
     height: 80px;
     position: relative;
@@ -62,11 +90,14 @@ header{
     width: 36px;
     height: 36px;
 }
-.icon{
+.icon, .icon-close{
     display: none;
 }
 .options{
     position: absolute;
+    right: 0px;
+    top: 26px;
+    margin-right: 100px;
 }
 .options a{
     text-decoration: none;
@@ -77,5 +108,16 @@ header{
     line-height: 28px;
     margin: 24px 0px 24px 16px;
     opacity: 100%;
+}
+.options a:hover{
+    font-weight: 500;
+    text-decoration: line-through;
+    color: #00F3BB;
+}
+.options a:active{
+    text-decoration: line-through;
+    color: #060A24;
+    opacity: 56%;
+    /*color: rgba(6,10,36,0.56);*/
 }
 }
