@@ -1,1 +1,19 @@
 - Organizar tamaño hamburguesa
+
+-Es lo mismo?:
+color: #060A24;
+opacity: 56%;
+/*color: rgba(6,10,36,0.56);*/
+	
+-validar bien como es el cambio de icono en el menú hamburguesa
+
+-Validar si es un error:
+Error: Bad value https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,500|IBM+Plex+Sans:400,600&display=swap for attribute href on element link: Illegal character in query: | is not allowed.
+From line 10, column 5; to line 11, column 25
+css">↩    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,500|IBM+Plex+Sans:400,600&display=swap"↩        rel="stylesheet">↩    <
+
+-validar el text-decoration del titulo
+
+-validar si el gradiente linear esta correcto
+
+-por qué hay espacio entre Episodios y la primera imagen?

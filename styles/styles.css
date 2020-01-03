@@ -103,14 +103,15 @@ header{
     line-height: 22px;
     background-color: #00F3BB;
 }
-.episodios{
-    position: relative;    
+.episodios{ 
     margin-top: 24px;
 }
 .fondo{
     transform: skewY(-5deg);
+    transform-origin: right;
     height: 1203.5px;
     background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    position: relative;
 }
 #title-epis{
     font-family: 'IBM Plex Sans', sans-serif;
@@ -119,10 +120,25 @@ header{
     letter-spacing: 0;
     line-height: 42px;
     margin-left: 16px;
-    position: fixed;
+    padding-top: 64px;
+    position: sticky;
+    transform: skewY(5deg);
+    transform-origin: right;
 }
 .embed{
+    width: 298px;
+    height: 225px;
     margin: 11px 11px 0px 11px;
+    position: sticky;
+    transform: skewY(5deg);
+}
+.phone{
+    width: 360px;
+    height: 519px;
+    position: sticky;
+    transform: translate(-20px) skewY(5deg);
+    margin-top: 48px;
+    
 }
 
 }
