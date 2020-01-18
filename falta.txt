@@ -1,4 +1,4 @@
-- Organizar tamaño hamburguesa
+﻿- Organizar tamaño hamburguesa
 
 -Es lo mismo?:
 color: #060A24;
@@ -17,3 +17,5 @@ css">↩    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:40
 -validar si el gradiente linear esta correcto
 
 -por qué hay espacio entre Episodios y la primera imagen?
+
+-falta agregar prefijos (transform)
